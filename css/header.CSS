@@ -1,0 +1,41 @@
+*{font-family: monospace;
+margin: 0;
+padding: 0;
+    color: white
+
+  
+}
+
+header{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+
+padding: 10px 50px 10px 50px ;
+background-color: black;
+    
+    
+}
+
+
+.nav { 
+       list-style: none;
+    width: 200px;
+    padding-top: 10px;
+    
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+
+.nav a {
+    
+text-decoration: none;
+  color: lightcoral;
+}
+
+.logo{
+    color: lightcoral;
+    
+}
